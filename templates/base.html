@@ -26,6 +26,16 @@
       {% if PROFILE_IMAGE_URL %}
         <div class= "siteimage">
           <a class="nodec" href={{ PROFILE_IMAGE_URL }}>
+            <style>
+              img.round {
+              border: 1px solid #222;
+              height: 200px;
+              width: 200px;
+              line-height: 200px;
+              -moz-border-radius: 100px;
+              border-radius: 100px;
+              }
+            </style>
             <img width="200" height="200" src={{ PROFILE_IMAGE_URL }}>
           </a>
         </div>
