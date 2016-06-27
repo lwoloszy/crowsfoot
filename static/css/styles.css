@@ -44,7 +44,7 @@ body {
 .sitetitle {
     font-family: 'Merriweather';
     font-weight: 100;
-    font-size: 3em;
+    font-size: 2.5em;
     padding-left: 10px; /* Hack to dodge :hover issue. */
     position: relative; /* Hack to dodge :hover issue. */
     left: -10px; /* Hack to dodge :hover issue. */
@@ -62,7 +62,7 @@ body {
 /* The navbar. */
 
 .menu {
-    font-size: 1.3em;
+    font-size: 1.2em;
     /* padding-left: 30px; */
 }
 
@@ -74,7 +74,7 @@ body {
 /* Article list on index page. */
 
 .posttitle {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .posttitle a {
@@ -93,6 +93,7 @@ body {
 .postsummary {
     font-family: Merriweather;
     font-weight: 300;
+    font-size: 0.9em;
 }
 
 .post {
@@ -152,6 +153,9 @@ sub {
 
 .article {
     margin-top: 30px;
+    font-size: 0.9em;
+    horizontal-align: middle;
+    width: 800px;
 }
 
 /* Lists */
