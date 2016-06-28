@@ -154,8 +154,6 @@ sub {
 .article {
     margin-top: 30px;
     font-size: 0.9em;
-    horizontal-align: middle;
-    width: 800px;
 }
 
 /* Lists */
@@ -169,8 +167,8 @@ sub {
 /* Paragraphs. */
 
 .article p {
-    line-height: 1.3em;
-    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 1.7em;
 }
 
 /* Headers. */
@@ -201,7 +199,7 @@ sub {
 .content * img {
     display: block;
     margin: 0 auto 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     height: auto;
 }
 
